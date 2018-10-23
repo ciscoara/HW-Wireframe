@@ -20,10 +20,10 @@
     background: #ebebeb;
     width: 960px;
     font-size: 12px;
-    font-style: normal;
+
   }
 
-  nav {
+  .nav {
       background: #ebebeb;
       width: 960px;
       margin-bottom: 10px;
@@ -36,6 +36,7 @@
     background: #ebebeb;
     height: 290px;
     width: 550px;
+    padding: 10px 0px 10px 0px;
     
         
   }
@@ -67,6 +68,7 @@
       width: 510px;
       color: #777;
       margin: 10px 10px 10px 10px;
+      font-size: 14pt;
   }
   
   #aside {
@@ -75,15 +77,18 @@
     height: 290px;
     background: #ebebeb;
     border: 1px solid #eee;
+    padding: 10px;
   }
 
   .left {
-      float: left;
-  }
+    float: left;
+}
 
-  .right {
-      float: right;
-  }
+.right {
+    float: right;
+}
+
+
   
   footer {
     width: 960px;
